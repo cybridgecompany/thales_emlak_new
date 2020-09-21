@@ -11,11 +11,11 @@ a:active{
 }
 
 body{
-	background-color: #2B2E4A;
+	background-color: #ffffff;
 }
 
 p,h1,h2,h3,h4,h5,h6 {
-	color: white;
+	color: rgb(0, 0, 0);
 }
 
 a {
@@ -24,8 +24,8 @@ a {
 
 .container-title {
 	text-align: center;
-	color: white;
-	padding-top: 20px;
+	color: rgb(0, 0, 0);
+	padding-top: 0px;
 	font-size: 30px;
 	text-transform: uppercase;
 	margin: 0;
@@ -37,7 +37,7 @@ a {
 }
 
 .container-2 {
-	background-color: rgba(232, 69, 69, 0.31);
+	background-color: #0182fa;
 	padding: 10px;
 }
 

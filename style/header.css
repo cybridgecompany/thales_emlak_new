@@ -6,45 +6,45 @@
 /* ===== website logo style ===== */
 .logo{
 	padding: 0;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 .logo img {
 	width: 300px;
-	height: 100px;
+	height: 300px;
 	display: block;
 	margin: 0 auto;
 }
 
 /* ===== navigation style ===== */
-.nav{
-	width: 100%;
-	padding: 10px 0;
-	text-align: center;
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.nav ul{
-	padding: 0;
-	margin: 0;
-}
-.nav li {
-	text-decoration: none;
-	display: inline;
-	margin: 25px;
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.nav a {
-	transition: all 0.25s;
-	color: #B44860;
-	font-size: 26px;
-	border: 2px solid #903749;
-	border-radius: 100px;
-	padding: 0 10px 0 10px;
-}
+ul.topnav li a:hover:not(.active) {background-color: #111;}
 
-/* Set the hover style of the navigation */
-.nav a:hover{
-	color: #E84545;
-	border-color: #E84545;
+ul.topnav li a.active {background-color:#0182fa;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
 }
